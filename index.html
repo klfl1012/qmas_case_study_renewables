@@ -11,11 +11,21 @@
       background-color: #f8f9fa;
     }
     .card {
-      margin-bottom: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
     iframe {
       border: none;
+    }
+    .readme {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .card-body h5 {
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -23,11 +33,36 @@
   <div class="container py-5">
     <h1 class="mb-4 text-center">My Interactive Plots</h1>
 
+    <!-- README displayed under the title -->
+    <div class="readme">
+      <p>
+        This repository contains interactive Plotly plots showing electricity generation shares for Germany, Denmark, France, and the World.
+        The plots were created as part of a <strong>course case study</strong> at the <strong>Technical University of Denmark (DTU)</strong>.
+      </p>
+
+      <p>
+        <strong>Important:</strong> These plots and the associated data are intended solely for educational purposes. 
+        They should <em>not</em> be taken out of context, reproduced, or used for any commercial purposes without permission.
+      </p>
+
+      <p>
+        The underlying electricity generation data comes from the <strong>Ember Energy Data Explorer</strong>. 
+        You can access the original data here: 
+        <a href="https://ember-energy.org/data/electricity-data-explorer/?entity=Germany&entity=Denmark&entity=France&entity=World&metric=pct_share" target="_blank">
+          Ember Energy Data Explorer
+        </a>.
+      </p>
+
+      <p>
+        These interactive visualizations are provided to support learning in data analysis and energy studies.
+      </p>
+    </div>
+
     <!-- Navigation -->
     <nav class="mb-5">
       <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="README.html">README</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-primary text-white" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="README.html">Full README</a></li>
         <li class="nav-item"><a class="nav-link" href="Denmark_electricity_gen_share.html">Denmark</a></li>
         <li class="nav-item"><a class="nav-link" href="Germany_electricity_gen_share.html">Germany</a></li>
         <li class="nav-item"><a class="nav-link" href="France_electricity_gen_share.html">France</a></li>
@@ -37,38 +72,38 @@
 
     <!-- Plot Cards -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-12 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Denmark Electricity Generation Share</h5>
-            <iframe src="Denmark_electricity_gen_share.html" width="100%" height="500"></iframe>
+            <iframe src="Denmark_electricity_gen_share.html" width="100%" height="700"></iframe>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-12 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Germany Electricity Generation Share</h5>
-            <iframe src="Germany_electricity_gen_share.html" width="100%" height="500"></iframe>
+            <iframe src="Germany_electricity_gen_share.html" width="100%" height="700"></iframe>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-12 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">France Electricity Generation Share</h5>
-            <iframe src="France_electricity_gen_share.html" width="100%" height="500"></iframe>
+            <iframe src="France_electricity_gen_share.html" width="100%" height="700"></iframe>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-12 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">World Electricity Generation Share</h5>
-            <iframe src="World_electricity_gen_share.html" width="100%" height="500"></iframe>
+            <iframe src="World_electricity_gen_share.html" width="100%" height="700"></iframe>
           </div>
         </div>
       </div>
