@@ -1,0 +1,121 @@
+entity,entity_code,is_aggregate_entity,date,series,is_aggregate_series,generation_twh,generation_share_pct,generation_kwh_per_capita,generation_yoy_change_twh,generation_yoy_change_pct,generation_share_yoy_change_pct_points,generation_yoy_change_kwh_per_capita
+"Germany","DEU",false,"2022","Bioenergy",false,48.6,8.57,577.98,-0.5,-1.02,0.09,-5.95
+"Germany","DEU",false,"2022","Coal",false,179.93,31.74,2139.83,15.28,9.28,3.29,181.72
+"Germany","DEU",false,"2022","Gas",false,79.05,13.94,940.11,-11.26,-12.47,-1.66,-133.91
+"Germany","DEU",false,"2022","Hydro",false,17.62,3.11,209.55,-2.04,-10.38,-0.29,-24.26
+"Germany","DEU",false,"2022","Nuclear",false,34.71,6.12,412.79,-34.42,-49.79,-5.82,-409.34
+"Germany","DEU",false,"2022","Other fossil",false,21.65,3.82,257.47,-0.59,-2.65,-0.02,-7.02
+"Germany","DEU",false,"2022","Other renewables",false,0.21,0.04,2.5,-0.03,-12.5,0,-0.36
+"Germany","DEU",false,"2022","Solar",false,60.3,10.64,717.12,10.96,22.21,2.12,130.34
+"Germany","DEU",false,"2022","Total generation",true,566.88,100,6741.65,-11.95,-2.06,0,-142.12
+"Germany","DEU",false,"2022","Wind",false,124.81,22.02,1484.31,10.65,9.33,2.3,126.66
+"Germany","DEU",false,"2023","Bioenergy",false,45.91,9.21,543,-2.69,-5.53,0.64,-31.82
+"Germany","DEU",false,"2023","Coal",false,124.97,25.08,1478.09,-54.96,-30.55,-6.66,-650.04
+"Germany","DEU",false,"2023","Gas",false,76.66,15.38,906.7,-2.39,-3.02,1.44,-28.27
+"Germany","DEU",false,"2023","Hydro",false,19.89,3.99,235.25,2.27,12.88,0.88,26.85
+"Germany","DEU",false,"2023","Nuclear",false,7.22,1.45,85.4,-27.49,-79.2,-4.67,-325.14
+"Germany","DEU",false,"2023","Other fossil",false,22.09,4.43,261.27,0.44,2.03,0.61,5.2
+"Germany","DEU",false,"2023","Other renewables",false,0.19,0.04,2.25,-0.02,-9.52,0,-0.24
+"Germany","DEU",false,"2023","Solar",false,63.87,12.82,755.43,3.57,5.92,2.18,42.22
+"Germany","DEU",false,"2023","Total generation",true,498.31,100,5893.8,-68.57,-12.1,0,-811.02
+"Germany","DEU",false,"2023","Wind",false,137.51,27.6,1626.41,12.7,10.18,5.58,150.21
+"Germany","DEU",false,"2024","Bioenergy",false,45.96,9.58,543.57,0.05,0.11,0.37,0.59
+"Germany","DEU",false,"2024","Coal",false,104.47,21.78,1235.57,-20.5,-16.4,-3.3,-242.45
+"Germany","DEU",false,"2024","Gas",false,78.41,16.35,927.36,1.75,2.28,0.97,20.7
+"Germany","DEU",false,"2024","Hydro",false,23.45,4.89,277.34,3.56,17.9,0.9,42.1
+"Germany","DEU",false,"2024","Nuclear",false,0,0,0,-7.22,-100,-1.45,-85.39
+"Germany","DEU",false,"2024","Other fossil",false,19.44,4.05,229.92,-2.65,-12,-0.38,-31.34
+"Germany","DEU",false,"2024","Other renewables",false,0.19,0.04,2.25,0,0,0,0
+"Germany","DEU",false,"2024","Solar",false,74.13,15.46,876.74,10.26,16.06,2.64,121.35
+"Germany","DEU",false,"2024","Total generation",true,479.65,100,5672.82,-18.66,-3.74,0,-220.69
+"Germany","DEU",false,"2024","Wind",false,133.6,27.85,1580.09,-3.91,-2.84,0.25,-46.24
+"Denmark","DNK",false,"2022","Bioenergy",false,7.27,20.78,1231.6,-1.45,-16.63,-5.71,-245.64
+"Denmark","DNK",false,"2022","Coal",false,4.43,12.66,750.48,0.06,1.37,-0.61,10.16
+"Denmark","DNK",false,"2022","Gas",false,1.02,2.92,172.8,-0.52,-33.77,-1.76,-88.09
+"Denmark","DNK",false,"2022","Hydro",false,0.01,0.03,1.69,-0.01,-50,-0.03,-1.69
+"Denmark","DNK",false,"2022","Nuclear",false,0,0,0,0,,0,0
+"Denmark","DNK",false,"2022","Other fossil",false,1.03,2.94,174.49,0.12,13.19,0.18,20.33
+"Denmark","DNK",false,"2022","Other renewables",false,0,0,0,0,,0,0
+"Denmark","DNK",false,"2022","Solar",false,2.2,6.29,372.7,0.89,67.94,2.31,150.77
+"Denmark","DNK",false,"2022","Total generation",true,34.99,100,5927.59,2.07,6.29,0,350.67
+"Denmark","DNK",false,"2022","Wind",false,19.03,54.39,3223.84,2.98,18.57,5.64,504.84
+"Denmark","DNK",false,"2023","Bioenergy",false,6.44,19.1,1082.69,-0.83,-11.42,-1.68,-139.54
+"Denmark","DNK",false,"2023","Coal",false,2.53,7.51,425.34,-1.9,-42.89,-5.15,-319.43
+"Denmark","DNK",false,"2023","Gas",false,1,2.97,168.12,-0.02,-1.96,0.05,-3.36
+"Denmark","DNK",false,"2023","Hydro",false,0.02,0.06,3.36,0.01,100,0.03,1.68
+"Denmark","DNK",false,"2023","Nuclear",false,0,0,0,0,,0,0
+"Denmark","DNK",false,"2023","Other fossil",false,0.85,2.52,142.9,-0.18,-17.48,-0.42,-30.26
+"Denmark","DNK",false,"2023","Other renewables",false,0,0,0,0,,0,0
+"Denmark","DNK",false,"2023","Solar",false,3.36,9.97,564.88,1.16,52.73,3.68,195.02
+"Denmark","DNK",false,"2023","Total generation",true,33.71,100,5667.32,-1.28,-3.66,0,-215.19
+"Denmark","DNK",false,"2023","Wind",false,19.51,57.88,3280.02,0.48,2.52,3.49,80.7
+"Denmark","DNK",false,"2024","Bioenergy",false,6.67,18.82,1115.87,0.23,3.57,-0.28,38.48
+"Denmark","DNK",false,"2024","Coal",false,2.49,7.03,416.57,-0.04,-1.58,-0.48,-6.69
+"Denmark","DNK",false,"2024","Gas",false,0.9,2.54,150.57,-0.1,-10,-0.43,-16.73
+"Denmark","DNK",false,"2024","Hydro",false,0.02,0.06,3.35,0,0,0,0
+"Denmark","DNK",false,"2024","Nuclear",false,0,0,0,0,,0,0
+"Denmark","DNK",false,"2024","Other fossil",false,0.84,2.37,140.53,-0.01,-1.18,-0.15,-1.67
+"Denmark","DNK",false,"2024","Other renewables",false,0,0,0,0,,0,0
+"Denmark","DNK",false,"2024","Solar",false,3.99,11.26,667.51,0.63,18.75,1.29,105.4
+"Denmark","DNK",false,"2024","Total generation",true,35.44,100,5928.99,1.73,5.13,0,289.42
+"Denmark","DNK",false,"2024","Wind",false,20.53,57.93,3434.6,1.02,5.23,0.05,170.64
+"France","FRA",false,"2022","Bioenergy",false,9.66,2.06,145.75,0.09,0.94,0.32,1.36
+"France","FRA",false,"2022","Coal",false,4.16,0.89,62.77,-1.28,-23.53,-0.1,-19.31
+"France","FRA",false,"2022","Gas",false,45.74,9.76,690.13,12.43,37.32,3.71,187.55
+"France","FRA",false,"2022","Hydro",false,45.52,9.72,686.81,-14.1,-23.65,-1.11,-212.74
+"France","FRA",false,"2022","Nuclear",false,294.73,62.91,4446.92,-84.63,-22.31,-6.01,-1276.91
+"France","FRA",false,"2022","Other fossil",false,10.45,2.23,157.67,0.36,3.57,0.4,5.43
+"France","FRA",false,"2022","Other renewables",false,0.6,0.13,9.05,0.02,3.45,0.02,0.3
+"France","FRA",false,"2022","Solar",false,19.63,4.19,296.18,4.27,27.8,1.4,64.43
+"France","FRA",false,"2022","Total generation",true,468.49,100,7068.62,-81.96,-14.89,0,-1236.62
+"France","FRA",false,"2022","Wind",false,38,8.11,573.35,0.88,2.37,1.37,13.28
+"France","FRA",false,"2023","Bioenergy",false,9.9,1.91,149.01,0.24,2.48,-0.15,3.61
+"France","FRA",false,"2023","Coal",false,1.98,0.38,29.8,-2.18,-52.4,-0.51,-32.81
+"France","FRA",false,"2023","Gas",false,29.84,5.77,449.13,-15.9,-34.76,-3.99,-239.32
+"France","FRA",false,"2023","Hydro",false,56.66,10.95,852.81,11.14,24.47,1.23,167.67
+"France","FRA",false,"2023","Nuclear",false,338.2,65.34,5090.4,43.47,14.75,2.43,654.29
+"France","FRA",false,"2023","Other fossil",false,10.56,2.04,158.94,0.11,1.05,-0.19,1.66
+"France","FRA",false,"2023","Other renewables",false,0.58,0.11,8.73,-0.02,-3.33,-0.02,-0.3
+"France","FRA",false,"2023","Solar",false,21.82,4.22,328.42,2.19,11.16,0.03,32.96
+"France","FRA",false,"2023","Total generation",true,517.59,100,7790.48,49.1,10.48,0,739.03
+"France","FRA",false,"2023","Wind",false,48.05,9.28,723.22,10.05,26.45,1.17,151.27
+"France","FRA",false,"2024","Bioenergy",false,9.74,1.75,146.36,-0.16,-1.62,-0.16,-2.4
+"France","FRA",false,"2024","Coal",false,1.7,0.3,25.55,-0.28,-14.14,-0.08,-4.21
+"France","FRA",false,"2024","Gas",false,19.07,3.42,286.56,-10.77,-36.09,-2.35,-161.84
+"France","FRA",false,"2024","Hydro",false,69.3,12.43,1041.35,12.64,22.31,1.48,189.94
+"France","FRA",false,"2024","Nuclear",false,379.34,68.04,5700.2,41.14,12.16,2.7,618.2
+"France","FRA",false,"2024","Other fossil",false,11.28,2.02,169.5,0.72,6.82,-0.02,10.82
+"France","FRA",false,"2024","Other renewables",false,0.58,0.1,8.72,0,0,-0.01,0
+"France","FRA",false,"2024","Solar",false,23.55,4.22,353.88,1.73,7.93,0,26
+"France","FRA",false,"2024","Total generation",true,557.56,100,8378.25,39.97,7.72,0,600.61
+"France","FRA",false,"2024","Wind",false,43,7.71,646.15,-5.05,-10.51,-1.57,-75.88
+"World",,true,"2022","Bioenergy",false,670.03,2.32,83.54,14.37,2.19,0,1.79
+"World",,true,"2022","Coal",false,10242.99,35.42,1277.16,87.23,0.86,-0.52,10.88
+"World",,true,"2022","Gas",false,6629.75,22.93,826.64,72.4,1.1,-0.27,9.03
+"World",,true,"2022","Hydro",false,4322.66,14.95,538.98,33.52,0.78,-0.23,4.18
+"World",,true,"2022","Nuclear",false,2639.64,9.13,329.13,-122.8,-4.45,-0.65,-15.31
+"World",,true,"2022","Other fossil",false,888.04,3.07,110.73,45.89,5.45,0.09,5.72
+"World",,true,"2022","Other renewables",false,87.91,0.3,10.96,1.58,1.83,-0.01,0.2
+"World",,true,"2022","Solar",false,1330.11,4.6,165.85,275.65,26.14,0.87,34.37
+"World",,true,"2022","Total generation",true,28918.31,100,3605.73,658.32,2.33,0,82.08
+"World",,true,"2022","Wind",false,2107.18,7.29,262.74,250.48,13.49,0.72,31.23
+"World",,true,"2023","Bioenergy",false,677.88,2.29,83.79,7.85,1.17,-0.03,0.97
+"World",,true,"2023","Coal",false,10401.21,35.06,1285.62,158.22,1.54,-0.36,19.56
+"World",,true,"2023","Gas",false,6715.93,22.64,830.11,86.18,1.3,-0.29,10.65
+"World",,true,"2023","Hydro",false,4231.91,14.27,523.08,-90.75,-2.1,-0.68,-11.22
+"World",,true,"2023","Nuclear",false,2699.34,9.1,333.65,59.7,2.26,-0.03,7.38
+"World",,true,"2023","Other fossil",false,874.15,2.95,108.05,-13.89,-1.56,-0.12,-1.72
+"World",,true,"2023","Other renewables",false,88.92,0.3,10.99,1.01,1.15,0,0.12
+"World",,true,"2023","Solar",false,1659.75,5.6,205.15,329.64,24.78,1,40.74
+"World",,true,"2023","Total generation",true,29663.03,100,3666.44,744.72,2.58,0,92.05
+"World",,true,"2023","Wind",false,2313.94,7.8,286.01,206.76,9.81,0.51,25.56
+"World",,true,"2024","Bioenergy",false,700.01,2.26,85.78,22.13,3.26,-0.03,2.71
+"World",,true,"2024","Coal",false,10541.32,34.1,1291.73,140.11,1.35,-0.96,17.17
+"World",,true,"2024","Gas",false,6891.61,22.29,844.49,175.68,2.62,-0.35,21.53
+"World",,true,"2024","Hydro",false,4408.47,14.26,540.21,176.56,4.17,-0.01,21.64
+"World",,true,"2024","Nuclear",false,2777.72,8.99,340.38,78.38,2.9,-0.11,9.6
+"World",,true,"2024","Other fossil",false,874.71,2.83,107.19,0.56,0.06,-0.12,0.07
+"World",,true,"2024","Other renewables",false,88.67,0.29,10.87,-0.25,-0.28,-0.01,-0.03
+"World",,true,"2024","Solar",false,2128.58,6.89,260.83,468.83,28.25,1.29,57.45
+"World",,true,"2024","Total generation",true,30913.94,100,3788.17,1250.91,4.22,0,153.29
+"World",,true,"2024","Wind",false,2502.85,8.1,306.7,188.91,8.16,0.3,23.15
