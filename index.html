@@ -36,6 +36,8 @@
   </style>
 </head>
 <body>
+
+  <!-- Top container for title, readme, navigation -->
   <div class="container py-5">
     <h1 class="mb-4 text-center">DTU-QMAS Case Study: Renewables, Electricity Generation Share per Source (%) for Countries/World</h1>
 
@@ -47,13 +49,13 @@
       </p>
 
       <p>
-        <strong>Important:</strong> These plots and the associated data are intended solely for educational purposes. 
+        <strong>Important:</strong> These plots and the associated data are intended solely for educational purposes.
         They should <em>not</em> be taken out of context, reproduced, or used for any commercial purposes without permission.
       </p>
 
       <p>
-        The underlying electricity generation data comes from the <strong>Ember Energy Data Explorer</strong>. 
-        You can access the original data here: 
+        The underlying electricity generation data comes from the <strong>Ember Energy Data Explorer</strong>.
+        You can access the original data here:
         <a href="https://ember-energy.org/data/electricity-data-explorer/?entity=Germany&entity=Denmark&entity=France&entity=World&metric=pct_share" target="_blank">
           Ember Energy Data Explorer.
         </a>
@@ -74,32 +76,26 @@
         <li class="nav-item"><a class="nav-link" href="#world">World</a></li>
       </ul>
     </nav>
+  </div> <!-- End top container -->
 
-    <!-- Plot Cards -->
-     <!-- <div class="row">
-      <div class="col-12 mb-4" id="comparison">
+  <!-- Comparison plot (fluid, custom max width, centered) -->
+  <div class="container-fluid py-2" id="comparison-container">
+    <div class="row justify-content-center">
+      <div class="col-12" style="max-width: 2000px;">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Comparison of Denmark, Germany, France and World</h5>
-            <iframe src="all_entities_electricity_gen_share.html" width="100%" height="1200"></iframe>
-          </div>
-        </div>
-      </div> -->
-    <div class="container-fluid py-2" id="comparison-container">
-      <div class="row">
-        <div class="col-12">
-          <div class="card" style="margin:0; box-shadow:none;">
-            <div class="card-body p-2">
-              <h5 class="card-title">Comparison of Denmark, Germany, France and World</h5>
-              <iframe src="all_entities_electricity_gen_share.html" width="100%" height="1300"></iframe>
-            </div>
+            <iframe src="all_entities_electricity_gen_share.html" width="100%" height="1300"></iframe>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-12 mb-4" id="denmark">
+  <!-- Single-country plots inside main container -->
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11 mb-4" id="denmark">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Denmark</h5>
@@ -108,7 +104,7 @@
         </div>
       </div>
 
-      <div class="col-12 mb-4" id="germany">
+      <div class="col-12 col-xl-11 mb-4" id="germany">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Germany</h5>
@@ -117,7 +113,7 @@
         </div>
       </div>
 
-      <div class="col-12 mb-4" id="france">
+      <div class="col-12 col-xl-11 mb-4" id="france">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">France</h5>
@@ -126,7 +122,7 @@
         </div>
       </div>
 
-      <div class="col-12 mb-4" id="world">
+      <div class="col-12 col-xl-11 mb-4" id="world">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">World</h5>
@@ -135,7 +131,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
   <!-- Bootstrap JS Bundle -->
